@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36429.23 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PlatonovMV.Sprint7.Project.V9.Lib", "Tyuiu.PlatonovMV.Sprint7.Project.V9.Lib\Tyuiu.PlatonovMV.Sprint7.Project.V9.Lib.csproj", "{D6BF73B3-7C8E-46A1-87B3-520C8E82E19D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PlatonovMV.Sprint7.Project.V9.Test", "Tyuiu.PlatonovMV.Sprint7.Project.V9.Test\Tyuiu.PlatonovMV.Sprint7.Project.V9.Test.csproj", "{A0B4F353-2CBB-43E5-980E-443C43156085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PlatonovMV.Sprint7.Project.V9", "Tyuiu.PlatonovMV.Sprint7.Project.V9\Tyuiu.PlatonovMV.Sprint7.Project.V9.csproj", "{0238A971-DC7C-45EB-BEFD-17BD571A3F8A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6BF73B3-7C8E-46A1-87B3-520C8E82E19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BF73B3-7C8E-46A1-87B3-520C8E82E19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BF73B3-7C8E-46A1-87B3-520C8E82E19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BF73B3-7C8E-46A1-87B3-520C8E82E19D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B4F353-2CBB-43E5-980E-443C43156085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B4F353-2CBB-43E5-980E-443C43156085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B4F353-2CBB-43E5-980E-443C43156085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B4F353-2CBB-43E5-980E-443C43156085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0238A971-DC7C-45EB-BEFD-17BD571A3F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0238A971-DC7C-45EB-BEFD-17BD571A3F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0238A971-DC7C-45EB-BEFD-17BD571A3F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0238A971-DC7C-45EB-BEFD-17BD571A3F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
