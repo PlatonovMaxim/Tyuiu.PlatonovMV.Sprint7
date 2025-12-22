@@ -12,4 +12,10 @@
     <ProjectReference Include="..\Tyuiu.PlatonovMV.Sprint7.Project.V9.Lib\Tyuiu.PlatonovMV.Sprint7.Project.V9.Lib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Data\VideoCatalog.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
