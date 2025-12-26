@@ -18,7 +18,7 @@ namespace Tyuiu.PlatonovMV.Sprint7.Project.V9
 
             panelChart_PMV.Paint += panelChart_PMV_Paint;
         }
-
+        //
         private void panelChart_PMV_Paint(object? sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
